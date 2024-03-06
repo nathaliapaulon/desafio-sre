@@ -5,6 +5,7 @@ import re
 app = Flask(__name__)
 
 def is_prime(n):
+    n = int(n) # Converte n para um inteiro
     if n <= 1:
         return False
     if n <= 3:
