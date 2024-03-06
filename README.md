@@ -8,22 +8,20 @@ Aplicação que expõe uma api web que recebe por parametros um JWT (string) e v
 git clone https://github.com/nathaliapaulon/desafio-sre.git
 
 2. Navegue até o diretório do projeto:
-cd desafio-sre
-cd app
+cd desafio-sre/app/
 
 ## Uso
 
-Passo 1: Criar um Ambiente Virtual
-	python3 -m venv venv
+Passo 1 - Criar um Ambiente Virtual: 
+python3 -m venv venv
 	
-Passo 2: Ativar o Ambiente Virtual
-	source venv/bin/activate
+Passo 2 - Ativar o Ambiente Virtual: 
+source venv/bin/activate
 
-Passo 3: Instalar as Dependências
-	pip install Flask PyJWT
+Passo 3 - Instalar as Dependências: 
+pip install Flask PyJWT
 
-Executando a Aplicação
-	python app.py
+Executando a Aplicação:	python app.py
 
 A aplicação estará rodando no endereço `http://localhost:5000`.
 
