@@ -9,18 +9,21 @@ git clone https://github.com/nathaliapaulon/desafio-sre.git
 
 2. Navegue até o diretório do projeto:
 cd desafio-sre
-
-3. Crie um ambiente virtual e ative-o:
-python3 -m venv venv source venv/bin/activate
-
-4. Instale as dependências:
 cd app
-pip install -r requirements.txt
 
 ## Uso
 
-Para iniciar a aplicação, execute o seguinte comando no diretório do projeto:
-python app.py
+Passo 1: Criar um Ambiente Virtual
+	python3 -m venv venv
+	
+Passo 2: Ativar o Ambiente Virtual
+	source venv/bin/activate
+
+Passo 3: Instalar as Dependências
+	pip install Flask PyJWT
+
+Executando a Aplicação
+	python app.py
 
 A aplicação estará rodando no endereço `http://localhost:5000`.
 
@@ -29,8 +32,7 @@ bash curl -X POST -H "Content-Type: application/json" -d '{"token":"seu_jwt_aqui
 
 ## Testes
 
-Para executar os testes, use o seguinte comando:
-pytest
+curl -X POST -H "Content-Type: application/json" -d '{"token":"eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJTZWVkIjoiNzg0MSIsIk5hbWUiOiJUb25pbmhvIEFyYXVqbyJ9.QY05sIjtrcJnP533kQNk8QXcaleJ1Q01jWY_ZzIZuAg"}' http://localhost:5000/validate
 
 ## Contato
 
