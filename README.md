@@ -32,6 +32,11 @@ bash curl -X POST -H "Content-Type: application/json" -d '{"token":"seu_jwt_aqui
 
 curl -X POST -H "Content-Type: application/json" -d '{"token":"eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJTZWVkIjoiNzg0MSIsIk5hbWUiOiJUb25pbmhvIEFyYXVqbyJ9.QY05sIjtrcJnP533kQNk8QXcaleJ1Q01jWY_ZzIZuAg"}' http://localhost:5000/validate
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Containerização
+docker pull nathaliapaulon7491/app-desafio
+
 ## Contato
 
 Nathalia F Paulon - nathaliapaulon@hotmail.com
