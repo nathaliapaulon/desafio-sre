@@ -37,6 +37,19 @@ curl -X POST -H "Content-Type: application/json" -d '{"token":"eyJhbGciOiJIUzI1N
 ## Containerização
 docker pull nathaliapaulon7491/app-desafio
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Cluster ECS com Fargate
+
+1. Criar um repositório no Amazon ECR
+2. Fazendo upload da imagem Docker para o Amazon ECR e copiar a URL
+3. Criar o cluster de ECS
+4. Criar uma Task Definition para o ECS
+5. Rodar a Task de forma manual e validando o acesso
+6. Rodar task de forma automática criando um serviço
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Contato
 
 Nathalia F Paulon - nathaliapaulon@hotmail.com
